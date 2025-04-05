@@ -10,3 +10,16 @@ git branch -M main
 git remote add origin git@github.com:mrivaslezama/list.git
 git push -u origin main
 
+# add to config/database.yml
+
+  username: postgres
+  password: olida
+
+  rails db:setup
+  rails db:migrate
+  rails s
+
+# deleted Gemfile.lock
+# check on gems... ok
+bundle update
+
