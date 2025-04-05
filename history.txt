@@ -24,3 +24,4 @@ git push -u origin main
 bundle update
 
 rails generate scaffold List name:string last_name:string rut:string phone:string location:string avatar:string user:references done:boolean
+
