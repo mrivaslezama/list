@@ -1,5 +1,5 @@
 
-rails scaffold list name last_name rut phone location avatar user:references done:boolean
+rails scaffold list name last_name rut phone location avatar user:references email:references done:boolean
 
 rails db:create 
 rails db:migrate
