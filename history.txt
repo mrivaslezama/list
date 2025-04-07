@@ -25,3 +25,39 @@ bundle update
 
 rails generate scaffold List name:string last_name:string rut:string phone:string location:string avatar:string user:references done:boolean
 
+
+# Reforzamiento Pro
+
+0:29:00
+
+VISUAL="code --wait" bin/rails credentials:edit
+
+# added---
+db:
+  username: postgres
+  password: olida
+
+
+# database.yml se cambia...
+
+ username: <%= Rails.application.credentials.db[:username] %>
+  password: <%= Rails.application.credentials.db[:password] %>
+
+
+
+
+
+
+
+Pending
+
+Credenciales - Hide password - setup
+Redirect to loging and singup
+ 
+render setup yaml
+Grid table list
+
+Declaración jurada SII 2025
+Correcciones TEG
+Fecha presentación TEG
+
