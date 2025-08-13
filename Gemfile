@@ -66,4 +66,4 @@ end
 
 gem "devise", "~> 4.9"
 gem "image_processing", "~> 1.14"
-gem "rspec-rails", "~> 7.1"
+gem "rspec-rails", "~> 8.0"
